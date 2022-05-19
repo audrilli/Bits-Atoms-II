@@ -33,19 +33,12 @@
 
   border-radius: 2px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .image {
   width: 100%;
   height: auto;
-  
-}
-
-p {
-  color: rgb(47, 49, 161);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 20px;
 }
 
 h1,
@@ -57,6 +50,7 @@ p {
   text-align: center;
   margin-top: 20px;
 }
+
 h2 {
   color: rgb(47, 49, 161);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -70,9 +64,11 @@ h2 {
   opacity: 0;
   transition: 0.3s;
   transform: translateY(100%);
+  padding: 10px;
+  padding-top: 5px;
 }
 
 .card:hover .text {
   opacity: 1;
-  transform: translateY(00);
+  transform: translateY(0);
 }
